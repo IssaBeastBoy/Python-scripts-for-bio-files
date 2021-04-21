@@ -1,0 +1,46 @@
+Bio Exercise 1:
+
+QUESTION 1:
+
+Input file:
+organism_1.fasta
+
+Write a program that achieves the following
+
+1) Read in the file 'organism_1.fasta'
+2) Use 2 variables to store the following information:
+	header: containing the header line (the line that starts with the '>' character)
+	sequence: containing the sequence (consisting of letters "A", "T", "C" and "G" in this case)
+		Note, your sequence should be one string, with all whitespace characters removed
+
+3) Generate a report file called 'report_1.txt' with the following information:
+	The description of the organism (from the header)
+	The length of the sequence
+	The frequency of each nucleotide base in the sequence
+
+
+QUESTION 2:
+
+Input files:
+organism_1.fasta
+organism_2.fasta
+
+Write a program that goes through all the steps in Question 1 and generates a report file called 'report_2.txt'
+This file must be have information from both files, organism_1.fasta and organism_2.fasta
+
+
+
+QUESTION 3:
+
+Input file: 
+hsp70_multi.fa
+
+Write a program that reads the file, 'hsp70_multi.fa'
+For each FASTA entry, the program must keep track of the entry's header and sequence
+Your program must simply print out the each sequence's header, along with the length of the sequence
+
+
+
+
+
+

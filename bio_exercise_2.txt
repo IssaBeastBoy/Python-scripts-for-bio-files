@@ -1,0 +1,51 @@
+Bio Exercise 2:
+
+QUESTION 1:
+
+Input file:	sequences.fa
+
+Write a program that reads in the file 'sequences.fa'. 
+Your program should then report the header and sequence length of the 3 Longest sequences in the file and
+	the 3 shortest sequences in the file.
+
+
+QUESTION 2:
+
+Input file: sequences.fa
+Output file: sequence_60.fa
+
+Write a program that reads in the file 'sequences.fa'. 
+Your program must then create a new file called 'sequence_60.fa', containing all entries reade from 'sequences.fa'.
+
+The only difference is that the sequences in this file must not span over more than 60 characters per line. 
+	i.e. if a sequence is 135 characters in lenth, the sequence must be displayed over 3 lines.
+		-> one line of the first 60 characters
+		-> one line of the next 60 characters
+		-> one final line of 15 characters
+
+This should be done for each sequence in the file.
+
+
+
+
+QUESTION 3:
+
+Input file: alignment_Hsp70.txt
+Output_file: alignment_Hsp70.fa
+
+You are provided with the file 'alignment_Hsp70.txt', which contains an alignment of sequences in Clustal format.
+Your goal is to write a program that reads in the file 'alignment_Hsp70.txt' and writes out a new file 'alignment_Hsp70.fa'.
+This new file should contain the same aligned sequences in FASTA format. 
+Note, the file should contain the same sequences as the Clustal format file.
+
+
+
+
+QUESTION 4:
+
+Input file: alignment_Hsp70.txt
+Output_file: Hsp70s.fa
+
+Write a program that reads in the file 'alignment_Hsp70.txt' and writes out a new file 'Hsp70s.fa'.
+This new file should contain all sequences from the Clustal format file, converted to FASTA format.
+The sequences in this file should Not be aligned and should not contain any gap ('-') characters.

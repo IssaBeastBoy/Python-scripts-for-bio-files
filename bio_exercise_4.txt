@@ -1,0 +1,81 @@
+Bioweek Exercise 4
+
+Input files:    PfHsp70-x_nt.fa
+                Pf3D7_08_v3_nt.fa
+                translate.txt (optionl)
+                
+You are provided with the following: 
+
+
+PfHsp70-x_nt.fa
+---------------
+The genomic sequence of the Plasmodium falciparum (P. falciparum) 70 kDa heat shock 
+protein x (PfHsp70-x), in FASTA format. *Note: This gene contains no introns.
+
+Pf3D7_08_v3_nt.fa
+-----------------
+The nucleotide sequence of the entire chromasome Pf3D7_08 of P. falciparum. in FASTA format
+
+translate.txt
+-------------
+A comma-delimited text file containing codons and the one-letter code of the amino acid they code for.
+ -> 64 codons using the standard codon table.
+ -> '*' character represents a STOP codon
+ -> Assume 'M' is both the amino acid "Methionine", as well as a START codon
+ 
+ 
+ 
+Question 1
+----------
+
+Read in the sequences from both 'PfHsp70-x_nt.fa' and 'Pf3D7_08_v3_nt.fa' as 'hsp70_seq' and 'gen_seq', respectively.
+The gene for PfHsp70-x is found on chromasome Pf3D7_08.
+
+    a) Can you confirm this using Python? If so, write code to do this.
+    b) If not, why not?
+    c) Use your answer from (b) to solve (a)
+    
+    d) Use Python code to determine the starting and ending position of the PfHsp70-x gene within the chromasome Pf3D7_08
+        -> Confirm your answer at http://plasmodb.org/plasmo/app/record/gene/PF3D7_0831700
+        
+        
+Question 2
+----------
+
+Assuming gen_seq contains no introns, determine the total number of coding sequences that can found within chromasome Pf3D7_08
+
+
+
+Question 3
+----------
+Using 'translate.txt' to help you, translate hsp70_seq from its nucleotide sequence to amino acid sequence.
+Does this sequence match predicted protein sequence for PfHsp70-x?
+    -> Again, confirm your answer at http://plasmodb.org/plasmo/app/record/gene/PF3D7_0831700
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

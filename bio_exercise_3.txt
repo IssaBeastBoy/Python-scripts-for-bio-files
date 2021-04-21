@@ -1,0 +1,41 @@
+Question 1: CRYSTAL STRUCTURE OF BOVINE HSC70(AA1-554)E213A/D214A MUTANT (1yuw)
+
+Read in the file '1yuw.pdb' and study the format of the file. For more information, go to http://www.wwpdb.org/documentation/file-format-content/format33/v3.3.html
+
+a) Basic information
+
+The COMPND record describes the macromolecular contents of an entry. Your goal is to read in this information and store the following: 
+	The Mol_id
+	The name of this molecule
+	The chain(s) associated with this molecule
+	The synonyms for this molecule.
+	
+You will not do anything with this information for now, but store it in such a way that you could query any of this information, based on the Mol_id.
+	
+b) SeqRes records
+
+Go to the SEQRES section of the file. This contains the amino acid sequence of the protein in this file, 
+where each residue is given with its three-letter code.
+
+Your goal is to extract these amino acids from the file and store them in a suitable data structure.
+You must then write code to convert the sequence from this 'three-letter code' format to the 'one-letter code' 
+format seen for sequences in FASTA format
+
+
+c) Compare SeqRes to sequence
+
+Compare the sequence extracted in (b) to the sequence given in the file '1yuw.fa'. Are there any differences? 
+
+
+d) Extracting coordinate information
+
+Extract all ATOM records for chain A of this file, including the TER record for chain A.
+
+
+
+
+
+Question 2: THE CRYSTAL STRUCTURE OF HUMAN DEOXYHAEMOGLOBIN AT 1.74 ANGSTROMS (4hhb)
+
+
+Repeat the steps from Question 1. The challenge is to do this for each chain in the structure. 
